@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration - Internship Skill Matcher</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>INTERNSHIP SKILL MATCHER</h1>
+        <p>Student Registration Form</p>
+    </header>
+
+    <hr>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="register.html">Register</a> |
+        <a href="internships.html">Internships</a> |
+        <a href="resume.html">Resume</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <main>
+
+        <h2>Student Registration</h2>
+
+        <p>
+            Please enter your details to create your
+            Internship Skill Matcher profile.
+        </p>
+
+        <form>
+
+            <!-- Personal Details -->
+            <fieldset>
+
+                <legend><b>Personal Details</b></legend>
+
+                <label for="name">Full Name:</label>
+                <br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your phone number">
+
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <br>
+                <input type="date" id="dob" name="dob">
+
+            </fieldset>
+
+            <br>
+
+            <!-- College Details -->
+            <fieldset>
+
+                <legend><b>College Details</b></legend>
+
+                <label for="college">College Name:</label>
+                <br>
+                <input type="text" id="college" name="college"
+                       placeholder="Enter your college name">
+
+                <br><br>
+
+                <label for="course">Course:</label>
+                <br>
+                <input type="text" id="course" name="course"
+                       placeholder="Example: B.Sc Computer Science">
+
+                <br><br>
+
+                <label for="year">Year of Study:</label>
+                <br>
+
+                <select id="year" name="year">
+                    <option value="">Select Year</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Education -->
+            <fieldset>
+
+                <legend><b>Educational Details</b></legend>
+
+                <label for="mark10">10th Mark / Percentage:</label>
+                <br>
+                <input type="number" id="mark10" name="mark10"
+                       placeholder="Enter 10th mark">
+
+                <br><br>
+
+                <label for="mark12">12th Mark / Percentage:</label>
+                <br>
+                <input type="number" id="mark12" name="mark12"
+                       placeholder="Enter 12th mark">
+
+            </fieldset>
+
+            <br>
+
+            <!-- Skills -->
+            <fieldset>
+
+                <legend><b>Skills & Interests</b></legend>
+
+                <label for="skills">Technical Skills:</label>
+                <br>
+                <textarea id="skills" name="skills"
+                          rows="4" cols="40"
+                          placeholder="Example: HTML, CSS, Python"></textarea>
+
+                <br><br>
+
+                <label for="hobby">Hobbies:</label>
+                <br>
+                <input type="text" id="hobby" name="hobby"
+                       placeholder="Enter your hobbies">
+
+                <br><br>
+
+                <label>Sports Interested:</label>
+                <br>
+
+                <input type="radio" id="yes" name="sports" value="Yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="sports" value="No">
+                <label for="no">No</label>
+
+                <br><br>
+
+                <label for="interest">Internship Interest:</label>
+                <br>
+
+                <select id="interest" name="interest">
+
+                    <option value="">Select Internship</option>
+                    <option>Python Developer</option>
+                    <option>Web Developer</option>
+                    <option>Data Analyst</option>
+                    <option>Data Science</option>
+                    <option>Software Developer</option>
+                    <option>Cyber Security</option>
+
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Salary -->
+            <fieldset>
+
+                <legend><b>Career Preference</b></legend>
+
+                <label for="salary">Expected Salary:</label>
+                <br>
+
+                <input type="number" id="salary" name="salary"
+                       placeholder="Enter expected salary">
+
+            </fieldset>
+
+            <br>
+
+            <!-- Buttons -->
+            <input type="submit" value="SUBMIT">
+
+            <input type="reset" value="RESET">
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p><b>Internship Skill Matcher</b></p>
+
+        <p>
+            College Project | HTML
+        </p>
+
+        <p>
+            © 2026 Internship Skill Matcher
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
